@@ -1,9 +1,9 @@
-function [L,U] = Doolitle(A)
+function [L,U] = Doolittle(A)
 
 n=size(A,1);
 L=eye(n); U=eye(n);
 
- text = fopen('Doolitle.txt', 'w');
+ text = fopen('Doolittle.txt', 'w');
  fprintf(text, 'Results:\n\n');
  fprintf(text, 'Stage 0\n\n');
  fprintf(text,[repmat('%.6f ', 1,n) '\n'], A');

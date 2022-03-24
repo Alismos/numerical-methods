@@ -1,4 +1,4 @@
-%Entradas
+n%Entradas
 %1 es Jacobi, 2 Seidel
 
 
